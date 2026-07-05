@@ -18,13 +18,13 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blueGrey,
           title: Text("Hello"),
         ),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              height: 100,
-              width: 200,
+              height: 200,
+              width: 100,
               color: Colors.green,
               child: Center(
                 child: Text("Hello world",
@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
             ),
             Container(
               height: 100,
-              width: 300,
+              width: 100,
               color: Colors.deepPurple,
               child: Center(
                 child: Text("Hello world",
