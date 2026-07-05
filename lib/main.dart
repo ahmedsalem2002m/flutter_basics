@@ -19,7 +19,18 @@ class MyApp extends StatelessWidget {
           title: Text("Hello"),
         ),
         body: Center(
-          child: Text("Hello world"),
+          child: Container(
+            height: 100,
+            width: 200,
+            color: Colors.green,
+            child: Center(
+              child: Text("Hello world",
+                style: TextStyle(
+                    fontSize: 24,
+                    color: Colors.black87
+                ),),
+            ),
+          ),
         ),
       ),
     );
